@@ -24,4 +24,14 @@ TIP:
 
 Siempre tienes que añadir coordenadas a Position.
 Position absolut: Ligado al primer padre con position relative.
-En cambio: Fixed va a por la raiz. Este no sigue al scroll. Fixed se basa en la raiz y absolute en el contenedor. 
+En cambio: Fixed va a por la raiz. Este no sigue al scroll. Fixed se basa en la raiz y absolute en el contenedor.
+
+Nombrar CSS: Con clases. (CLASS) 
+Componente: Que tiene relacion con otros. 
+BEM: Mismo nombre del componente en los elementos y en los configuradores. ( _ _ ) 
+
+Si quieres el mismo elemento pero modificado: (Tirita/tirita Roja)
+    : Tirita__Pizq
+    : Tirita--Roja__Pizq
+
+SudoSelectores: "No existen"
