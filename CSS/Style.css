@@ -1,0 +1,25 @@
+body{
+    background-color: #b2e1d5;
+    color: #1d493e;
+}
+
+h1{
+    color: #357e6d;
+    line-height: 30px;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
+header{
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #1d493e;
+}
+
+article{
+    line-height: 25px;
+}

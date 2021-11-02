@@ -9,3 +9,19 @@ Sub-elemento: No están en el elemento es si. (ejemplo el 1- de la OL) Pero si q
 Elemento <nav> para la navegación. Visualmente no pasa nada, pero en la programación, el lector etc, van directos a ahí.
 
 <main> es un contenedor de contenido principal.
+
+../ --> Para carpeta "anterior" o carpeta base.
+
+Variables mejor que elementos: Menos cambios en GIT, mas rapidez a la hora de cambiar cosas. (ejemplo: Variable color marca)
+
+El tamaño va de acuerdo al contenedor.
+
+TIP:
+    Coordenadas: Siempre arriba a la izquierda
+    Medidas: La imagen mide lo que tiene que medir: Hay que darle un ancho concreto
+
+    Viewport: Visualización, medida relativa.
+
+Siempre tienes que añadir coordenadas a Position.
+Position absolut: Ligado al primer padre con position relative.
+En cambio: Fixed va a por la raiz. Este no sigue al scroll. Fixed se basa en la raiz y absolute en el contenedor. 
