@@ -29,4 +29,9 @@ header{
 
 article{
     line-height: 25px;
+    background-color: mediumturquoise;
+}
+
+section{
+    background-color: paleturquoise;
 }
