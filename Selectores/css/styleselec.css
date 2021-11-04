@@ -1,0 +1,32 @@
+body{
+    background-color: #a4d6d0;
+}
+
+a{
+    color: teal;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: dodgerblue;
+}
+
+a:focus{
+    border: solid 3px blue;
+}
+
+.pacino{
+    color: seagreen;
+}
+
+.pacino:visited{
+    color: forestgreen;
+}
+
+input[type=text]:focus{
+    box-shadow: 0 0 5px 5px darkslategrey;
+}
+
