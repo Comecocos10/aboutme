@@ -56,3 +56,47 @@ li:after{
     content: " - " attr(data-text);
     font-size: small
 }
+
+p{
+    color:red;
+}
+
+span{
+    color: green;
+}
+
+p span{
+    color: fuchsia;
+}
+
+.foo{
+    color: gold;
+}
+
+span.foo{
+    color:grey
+}
+
+p span.foo{
+    color:indianred
+}
+
+.bar .foo{
+    color: indigo;
+}
+
+p.bar span.foo{
+    color: darkolivegreen
+}
+
+#bar{
+    color: darkorange;
+}
+
+span#bar{
+    color: darkorchid;
+}
+
+.bar span#bar{
+    color:darkred;
+}
