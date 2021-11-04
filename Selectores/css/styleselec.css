@@ -2,6 +2,10 @@ body{
     background-color: #a4d6d0;
 }
 
+header{
+    text-align: center;
+}
+
 a{
     color: teal;
 }
@@ -31,3 +35,24 @@ input[type=text]:focus{
                 0 0 10px 10px turquoise;
 }
 
+input:focus{
+    box-shadow: 0 0 5px 5px darkslateblue,
+                0 0 10px 10px turquoise;
+}
+
+p.checkbox{
+    display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ p{
+    display: block;
+}
+
+li:after{
+    content: " - " attr(data-text);
+    font-size: small
+}
