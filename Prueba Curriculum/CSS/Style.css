@@ -6,8 +6,15 @@ body{
 h1{
     color: #357e6d;
     line-height: 30px;
+    font-family: 'Bebas Neue' , cursive;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
 }
 
+p{
+    font-family: 'Roboto' sans-serif;
+}
 img{
     width: 100%;
     max-width: 100%;
