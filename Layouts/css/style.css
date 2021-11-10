@@ -1,0 +1,50 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background: olive;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.oficial{
+  background-color: #a354a3;
+  color: #283a22;
+  display: flex;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.gatito{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.gatito--header{
+    margin-left: auto;
+}
+
+nav{
+  background-color: #688c4f;
+}
+
+main{
+  background-color: #65a293;
+  flex: 1;
+}
+
+.secundario{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 0.5rem;
+}
+
+footer{
+  background-color: #b59fb6;
+  color: #283a22;
+}
