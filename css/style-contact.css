@@ -1,0 +1,78 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #292929;
+    padding: 0px 24px;
+}
+
+section{
+    width: 100%;
+    padding: 0% 0% 012% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.principal{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+footer{
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+form{
+    width: 100%;
+    background-color: #EBFAEF;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 3px;
+}
+
+.form-element{
+    padding: 16px;
+    margin: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    min-height: 47px;
+    background-color: #fff;
+    border-color: #4E4D4D33;
+    color: #ADADAD;
+    
+    
+}
+
+input[type="button"] {
+    background-color: #35CC61;
+    color: #fff;
+    width: 87%;
+}
+
+
+.rrss{
+     font-family: 'Rubik', sans-serif;
+     font-weight: 500;
+}
+
+.emailcontact{
+    color: #35CC61;
+    padding-left: 10px;
+}
+
+.titel{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: left;
+    color: #33475B;
+}
+
+@media all and (min-width: 600px) {
+    body{
+        display: flex;
+    }
+}
