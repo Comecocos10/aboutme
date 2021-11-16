@@ -40,7 +40,7 @@ form{
 }
 
 .form-element{
-    padding: 16px;
+    padding: 6px 16px;
     margin: 6px;
     border-radius: 4px;
     font-size: 16px;
@@ -57,10 +57,27 @@ input[type="button"] {
     width: 100%;
 }
 
-
 .rrss{
      font-family: 'Rubik', sans-serif;
+     font-size: 20px;
+     line-height: 60px;
      font-weight: 500;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+}
+
+.link{
+    padding-right: 36px;
+}
+
+.icon{
+    width: 42px;
+    border-radius: 50%;
+    display: inline-block;
+    
 }
 
 .emailcontact{
@@ -72,6 +89,7 @@ input[type="button"] {
     font-family: 'Baloo Bhai 2', cursive;
     text-align: left;
     color: #33475B;
+    font-weight: 800;
 }
 
 @media all and (min-width: 600px) {
