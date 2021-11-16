@@ -5,6 +5,7 @@ body{
     font-family: 'Rubik', sans-serif;
     color: #292929;
     padding: 0px 24px;
+    display: flex;
 }
 
 section{
@@ -19,6 +20,7 @@ section{
     font-family: 'Baloo Bhai 2', cursive;
     font-size: 36px;
     line-height: 40px;
+    padding: 0 6px 0 0;
 }
 
 footer{
@@ -33,6 +35,8 @@ form{
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-element{
@@ -42,16 +46,15 @@ form{
     font-size: 16px;
     min-height: 47px;
     background-color: #fff;
-    border-color: #4E4D4D33;
-    color: #ADADAD;
-    
-    
+    border: 1px solid #ADADAD;
+    color: #373a3c;
+    font-family:'Rubik', sans-serif;  
 }
 
 input[type="button"] {
     background-color: #35CC61;
     color: #fff;
-    width: 87%;
+    width: 100%;
 }
 
 
@@ -72,7 +75,11 @@ input[type="button"] {
 }
 
 @media all and (min-width: 600px) {
-    body{
+    main{
         display: flex;
+    }
+    body{
+        flex-direction: column;
+        align-items: center;
     }
 }
