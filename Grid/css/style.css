@@ -11,34 +11,38 @@ html, body{
 img{
     width: 100%;
     max-width: 100%;
+    border: 2px lightpink solid;
 }
 
 .grid{
     display: flex;
     flex-wrap: wrap;
+    padding: 8px;
+}
+
+[class^="grid__cell"]{
+    padding: 12px;
+    margin: 8px;
 }
 
 .grid__cell-50{
     background-color: cadetblue;
-    flex: 50%;
-    padding: 12px;
+    flex: 0 0 calc(50% - 16px);
 }
 
 .grid__cell-25{
-    flex: 0 0 25%;
+    flex: 0 0 calc(25% - 16px);
     background-color: darkgrey;
-    padding: 12px;
 }
 
 .grid__cell-75{
-    flex: 0 0 75%;
+    flex: 0 0 calc(75% - 16px);
     background-color: darkseagreen;
-    padding: 12px;
 }
 
 .grid__cell-100{
     background-color: darkcyan;
-    padding: 12px;
+    flex: 0 0 calc(100% - 16px);
 }
 
 @media all and (max-width: 500px){
