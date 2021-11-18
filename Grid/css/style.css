@@ -37,7 +37,7 @@ img{
 
 .grid__cell-75{
     flex: 0 0 calc(75% - 16px);
-    background-color: darkseagreen;
+    background-color: darkgrey;
 }
 
 .grid__cell-100{
