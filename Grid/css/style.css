@@ -14,35 +14,35 @@ img{
     border: 2px lightpink solid;
 }
 
-.grid{
+   .grid{
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
 }
 
-[class^="grid__cell"]{
-    padding: 12px;
-    margin: 8px;
+        [class^="grid__cell"]{
+        padding: 12px;
+        margin: 8px;
 }
 
-.grid__cell-50{
-    background-color: cadetblue;
-    flex: 0 0 calc(50% - 16px);
+        .grid__cell-50{
+        background-color: cadetblue;
+        flex: 0 0 calc(50% - 16px);
 }
 
-.grid__cell-25{
-    flex: 0 0 calc(25% - 16px);
-    background-color: darkgrey;
+        .grid__cell-25{
+        flex: 0 0 calc(25% - 16px);
+        background-color: darkgrey;
 }
 
-.grid__cell-75{
-    flex: 0 0 calc(75% - 16px);
-    background-color: darkgrey;
+        .grid__cell-75{
+        flex: 0 0 calc(75% - 16px);
+        background-color: darkgrey;
 }
 
-.grid__cell-100{
-    background-color: darkcyan;
-    flex: 0 0 calc(100% - 16px);
+        .grid__cell-100{
+        background-color: darkcyan;
+        flex: 0 0 calc(100% - 16px);
 }
 
 @media all and (max-width: 500px){
