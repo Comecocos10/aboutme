@@ -1,58 +1,78 @@
-*{
-    box-sizing: border-box;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-    padding: 0;
-    margin: 0;
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-img{
-    width: 100%;
-    max-width: 100%;
-    border: 2px lightpink solid;
+img {
+  width: 100%;
+  max-width: 100%;
+  border: 2px lightpink solid;
 }
 
-   .grid{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 8px;
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 8px;
 }
 
-        [class^="grid__cell"]{
-        padding: 12px;
-        margin: 8px;
+[class^=grid__cell] {
+  padding: 12px;
+  margin: 8px;
 }
 
-        .grid__cell-50{
-        background-color: cadetblue;
-        flex: 0 0 calc(50% - 16px);
+.grid__cell-50 {
+  background-color: cadetblue;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(50% - 16px);
+          flex: 0 0 calc(50% - 16px);
 }
 
-        .grid__cell-25{
-        flex: 0 0 calc(25% - 16px);
-        background-color: darkgrey;
+.grid__cell-25 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(25% - 16px);
+          flex: 0 0 calc(25% - 16px);
+  background-color: darkgrey;
 }
 
-        .grid__cell-75{
-        flex: 0 0 calc(75% - 16px);
-        background-color: darkgrey;
+.grid__cell-75 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(75% - 16px);
+          flex: 0 0 calc(75% - 16px);
+  background-color: darkgrey;
 }
 
-        .grid__cell-100{
-        background-color: darkcyan;
-        flex: 0 0 calc(100% - 16px);
+.grid__cell-100 {
+  background-color: darkcyan;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(100% - 16px);
+          flex: 0 0 calc(100% - 16px);
 }
 
-@media all and (max-width: 500px){
-    .grid__cell-50{
-        flex: 100%;
-    }
-    .grid__cell-25{
-        flex: 100%;
-    }
-    .grid__cell-75{
-        flex: 100%;
-    }
+@media all and (max-width: 500px) {
+  .grid__cell-50 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+
+  .grid__cell-25 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+
+  .grid__cell-75 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
 }
