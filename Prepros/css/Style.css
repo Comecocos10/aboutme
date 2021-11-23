@@ -1,5 +1,5 @@
 .red {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .blue {
@@ -8,6 +8,12 @@
 
 .green {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .red {
