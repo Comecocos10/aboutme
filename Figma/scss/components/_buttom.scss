@@ -1,0 +1,29 @@
+button{
+    
+    border: 0;
+    height: 100%;
+}
+
+.logout{
+    background-color: $green-dark;
+    color: white;
+    padding: 12px;
+    display: flex;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.vector__logout{
+    margin-left: $unit;
+    align-items: center;
+}
+
+.vectorpure__lo{
+    height: $space--medium;
+    width: $space--medium;
+}
+
+.undo{
+    border-radius: 15%;
+    padding: 12px;
+}

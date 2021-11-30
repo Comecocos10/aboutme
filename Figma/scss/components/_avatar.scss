@@ -1,0 +1,34 @@
+.avatar{
+    position: relative;
+}
+
+.imagen{
+  background-image: url(/Figma/Source/Imagenes/wolfgang-hasselmann-CY6MLcLvdX0-unsplash.jpg);
+  background-color: $green-dark;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: white 10px solid;
+  display: inline-block;
+  position: relative;
+}
+
+.vector__edit{
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2.6em;
+  text-align: center;
+  position: absolute;
+  bottom: -3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.v_edit{
+  align-self: center;
+  justify-self: center;
+}

@@ -1,0 +1,18 @@
+//-----> $GRID
+.grid {
+  display: flex;
+  @include max-width(2048px, 80%);
+
+  &__cell {
+    padding: $space;
+    @include remove-border(12px);
+
+    &--50 {
+      @include gridcell(10%, $unit);
+    }
+    &--10 {
+      flex: 0 0 10%;
+    }
+  }
+}
+

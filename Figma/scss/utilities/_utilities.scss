@@ -1,0 +1,21 @@
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar__text{
+    flex-direction: column;
+    padding: $unit;
+    margin: 0 0 0 0;
+}
+
+p{
+    padding: $unit;
+    margin: 0;
+}
+
+h3{
+    padding: $unit;
+    margin: 0;
+}

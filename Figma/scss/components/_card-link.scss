@@ -1,0 +1,21 @@
+.cuadricula__cell{
+    background-color: $green-dark;
+    border-radius: calc($unit * 2);
+    display: flex;
+    flex-direction: column;
+    padding: $unit;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: $unit;
+}
+
+.icon_cuadricula{
+    padding: $unit;
+}
+
+.cowita{
+    width: 124px;
+    height: 113px;
+}
