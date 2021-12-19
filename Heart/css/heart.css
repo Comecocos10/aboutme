@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CONTENEDOR DEL CORAZON*/
+.button{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button:hover{
+    background-color:#FFC8D2;
+}
+.button:checked{
+    background-color: #FFC8D2;
+}
+
+/*CORAZON*/
+.heart{
+    fill: #999999;
+}
+
+.button:hover > .heart{
+    fill:#F34363;
+}
+
+.button:checked > .heart{
+    fill:#F34363;
+}
+
+
+input:checked > .heart{
+    height: 110px;
+    width: 120px;
+}
+
+
+/*CIRCULO*/
+.circle{
+    position: absolute;
+    display: none;
+}
+
+
+
+
+
+/*ICONO CON NUMERO 23*/
+.number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    width: 60px;
+    height: 37px;
+    border-radius: 25px;
+    background-color: #F34363;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: none;
+}
